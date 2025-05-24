@@ -238,10 +238,12 @@ p {
 }
 #hero h1:nth-child(2) {
 	animation-delay: 2s;
-}
-#hero h1:nth-child(3) {
 	animation: text_reveal_name 0.5s ease forwards;
+}
+#hero p:nth-child(3) {
 	animation-delay: 3s;
+	color: whitesmoke;
+	font-weight: bold;
 }
 #hero h1 span {
 	position: absolute;
